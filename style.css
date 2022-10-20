@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding:0;
+    background-color: #fff;
+    color:#000;
+}
+/*------------------Nav-Bar Section-------------------*/
+.navbar-container{
+    display: flex;
+    width: 100%;
+    /* text-align: center;
+    justify-content: center; */
+    height: 100px;
+    margin: auto;    
+}
+
+.logo{
+    /* padding-left: 2.5%; */
+    padding-top: 19px;
+    width: 25%;
+    margin-left: 2.7%;
+
+}
+
+.list{
+    display:flex;
+    justify-content:center;
+    margin-left: 24.5px;
+    width: 100%;
+    padding-top: 20px;
+    margin-top:8px;
+  
+}
+.list-item{
+    margin-right: 60px;
+    padding-top:25px;
+    list-style:none;
+    font-size: 20px;
+    font-family: 'Kufam', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 90px;
+}
+
+.button-group{   
+    width: 25%;
+    margin-left: auto;
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search-icon{
+    margin-right: 10px;
+}
+.nav-button{    
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+/*------------------ Section ----------------------*/
+
+section{
+    width: 95%;
+    margin: auto;
+}
+.hero-container{
+    width: 100%;
+    height: calc(100vh - 120px);
+    margin-top: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.square{
+    position: absolute;
+    top:51.5%;
+    left:15.2%;
+}
+
+.image {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    padding-right: 3px;
+}
+
+.star{
+    position: absolute;
+    top: 20%;
+    left: 88.5%;
+}
+
+.globe{
+    position: absolute;
+    top: 12%;
+    left: 52.5%;
+}
+
+.hero-container-right{
+    text-align: center;
+    width: 60%;
+    position: relative;
+    top:20%;
+    float: right;
+    margin: auto
+}
+.hero-heading{
+    font-size: 90px;
+}
+
+.hero-description{
+    width: 65%;
+    padding: 5%;
+    font-size: 20px;
+    margin: auto;
+    color: #8c8787;
+}
+
+.hero-container .hero-container-right> div {
+    height:180px;
+    font-size: 15px;   
+}
+
+/*-------------------- Footer -----------------------*/
+
+.button-email{   
+    width: 170px;
+    height: 36px;
+    border-radius: 10px;
+    margin-top: 71px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.button-join{
+    width: 120px;
+    height: 36px;
+    border-radius: 10px;
+    margin-top: 71px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact-heading{
+    height:25px
+}
+
+span{
+    margin-right: 20px;
+}
+
+/*------------------------ Hover -----------------------*/
+li:hover{
+    text-decoration: underline;
+}
+
+.nav-button:hover,.button-email:hover{
+    background-color: #000;
+    color: #fff;
+}
+.button-join:hover{
+    background-color: #fff;
+    color: #000;
+}
