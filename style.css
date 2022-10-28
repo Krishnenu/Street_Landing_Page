@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&family=Orbitron&display=swap');
+
 *{
     margin: 0;
     padding:0;
@@ -29,14 +31,15 @@
     width: 100%;
     padding-top: 20px;
     margin-top:8px;
-  
+     
 }
 .list-item{
     margin-right: 60px;
     padding-top:25px;
     list-style:none;
     font-size: 20px;
-    font-family: 'Kufam', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
     font-weight: bold;
     letter-spacing: 1px;
     width: 90px;
@@ -107,7 +110,9 @@ section{
     margin: auto
 }
 .hero-heading{
-    font-size: 90px;
+    font-size: 65px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
 }
 
 .hero-description{
@@ -126,21 +131,23 @@ section{
 /*-------------------- Footer -----------------------*/
 
 .button-email{   
-    width: 170px;
+    width: 200px;
     height: 36px;
     border-radius: 10px;
     margin-top: 71px;
     margin-right: 20px;
     font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .button-join{
     width: 120px;
     height: 36px;
     border-radius: 10px;
-    margin-top: 71px;
+    margin-top: 71px 20px 0px 0px;
     background-color: #000;
     color: #fff;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .contact-heading{
